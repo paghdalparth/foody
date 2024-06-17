@@ -1,4 +1,4 @@
-import foodFireLogo from "../public/Images/foodFireLogo.png";
+import foodylogo from "../public/Images/foodylogo.png";
 import { Link } from "react-router-dom"; // imported Link for client side routing
 import { useNavigate } from "react-router-dom";
 import useOnline from "../Hooks/useOnline";
@@ -11,9 +11,9 @@ const Title = () => (
   <Link to="/">
     <img
       className="logo"
-      src={foodFireLogo}
-      alt="Food Fire"
-      title="Food Fire"
+      src={foodylogo}
+      alt="Foody"
+      title="Foody"
     />
   </Link>
 );
