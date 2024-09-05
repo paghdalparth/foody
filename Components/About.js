@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import burgerImage from "../public/Images/burgerImage.png";
-
+//About section
 const About = () => {
   const [show, setShow] = useState(false);
   return (
